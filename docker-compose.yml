@@ -1,12 +1,12 @@
 services:
   angular-tutorial:
-    container_name: angular-web
+    container_name: learning-angular
     build:
       context: ./docker-angular
       dockerfile: Dockerfile
     #command: 'sh /sh/start.sh'
     ports:
-      - 4200:4200
+      - 4201:4200
     volumes:
       - ./docker-angular/project:/usr/local/project
     tty: true
