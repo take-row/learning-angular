@@ -2,4 +2,4 @@ docker compose up -d
 
 docker compose exec angular-tutorial bash
 
-ng new project
+ng new practice
